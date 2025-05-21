@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class FloydAlgorithm {
     public static final int INF = 99999;
-    public static int Floyd(int[][] W, int n) {
+    public static int [][]Floyd(int[][] W, int n) {
         int[][] D = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
